@@ -1,3 +1,5 @@
+
+
 # Prerequisites
 *.d
 
@@ -13,7 +15,15 @@
 
 # Compiled Dynamic libraries
 *.so
-*.dylib
+*.dylibusing namespace std;
+int main()
+{
+  char s[80];
+  cin >> s;
+  cout << s << endl;
+  system("pause");
+  return 0;
+}
 *.dll
 
 # Fortran module files
